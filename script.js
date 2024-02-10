@@ -36,9 +36,9 @@ const enableButtons = () => {
 const winFunction = (letter) => {
   disableButtons();
   if (letter == "X") {
-    msgRef.innerHTML = "  <br> '1st player X ' Wins";
+    msgRef.innerHTML = "😏🔥  <br> '1st player X ' Wins";
   } else {
-    msgRef.innerHTML = "  <br> '2st player O' Wins";
+    msgRef.innerHTML = "😎✨ <br> '2st player O' Wins";
   }
 };
 
